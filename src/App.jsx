@@ -9,8 +9,8 @@ function App () {
   const [name, setName] = useState("Fernando Mendez León");
 
   return (
-    <div className= "App">
-      <header className="App-header">
+    <div className='App'>
+      <header className='App-header'>
         <hr className='white-hr'/>
         <FourthComponent />
       <hr className='white-hr'/> 
@@ -18,8 +18,7 @@ function App () {
         name={name}
         setName={setName} 
       />
-      <hr className='white-hr'/>
-            
+      <hr className='white-hr'/>            
       </header>
     </div>
   )
